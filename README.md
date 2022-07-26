@@ -43,7 +43,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Deployed Link (GitHub Pages)
-[Deployed]()
+[Deployed](https://jasonchun7.github.io/hw-20-react-portfolio/)
 
 ## Technology Used
 
@@ -58,4 +58,3 @@ Do a `git clone` after copying the SSH link from the Repo in your command-line. 
 ## Usage
 
 After installing the dependencies, enter `npm start` and a new Chrome Tab should open the App!
-
