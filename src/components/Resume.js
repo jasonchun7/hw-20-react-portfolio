@@ -9,9 +9,9 @@ function Resume() {
 
         <a
           className="button is-primary"
-          href={process.env.PUBLIC_URL + "/Jason-Chun-Resume.pdf"}
+          href={process.env.PUBLIC_URL + "/img/Jason-Chun-Resume.pdf"}
           target="_blank"
-          rel="noreferrer"
+          rel=" noopener noreferrer"
         >
           <span className="icon">
             <i className="fas fa-download"></i>

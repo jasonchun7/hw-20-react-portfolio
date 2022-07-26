@@ -1,9 +1,8 @@
-//Needs to include Name and pull in Navigation component
 import React, { useState } from 'react';
 import NavBar from './NavBar';
 import About from "./About";
 import Contact from "./Contact";
-import Portfolio from "./Projects";
+import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
 function Header() {
@@ -27,15 +26,16 @@ function Header() {
 
   return (
     <div>
-      <nav className="navbar">
-        <div className="navbar-brand">
+      <nav className="navbar text-center" bg="dark" variant="dark">
+        <div className="navbar-brand text-center">
           <a
-            className="navbar-item"
-            rel="noreferrer"
+            className="navbar-item text-center"
+            rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/jasonchun7"
+            variant="dark"
           >
-            <span className="content is-large">Jason Chun</span>
+            <span className="content is-large text-center" variant="dark">Jason Chun</span>
           </a>
         </div>
       </nav>
